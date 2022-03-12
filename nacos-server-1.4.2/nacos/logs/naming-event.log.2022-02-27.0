@@ -1,0 +1,378 @@
+2022-02-27 13:50:18,541 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:50:18,544 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 13:50:18,852 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 13:50:19,502 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:50:19,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 192.168.69.129:88_true,
+
+2022-02-27 13:50:31,899 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:50:31,900 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.69.129:20000_true,
+
+2022-02-27 13:50:39,797 INFO DEFAULT_GROUP@@gulimall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:50:39,797 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 192.168.69.129:7000_true,
+
+2022-02-27 13:50:39,868 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 192.168.69.129:7000_true,
+
+2022-02-27 13:50:56,502 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:50:56,502 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.69.129:8000_true,
+
+2022-02-27 13:50:57,243 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 192.168.69.129:8000_true,
+
+2022-02-27 13:51:08,884 INFO DEFAULT_GROUP@@gulimall-third-party {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:51:08,884 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-third-party, ips: 192.168.69.129:30000_true,
+
+2022-02-27 13:51:15,655 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:51:15,655 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 192.168.69.129:9000_true,
+
+2022-02-27 13:51:15,655 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 192.168.69.129:9000_true,
+
+2022-02-27 13:51:21,439 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:51:21,439 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 13:51:21,448 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 13:51:23,747 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:51:23,748 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 13:51:23,756 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 13:54:46,715 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 13:54:46,715 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 192.168.69.129:11000_true,
+
+2022-02-27 13:54:46,719 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 192.168.69.129:11000_true,
+
+2022-02-27 18:45:09,840 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:12005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 18:45:09,846 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.69.129:12005_true,
+
+2022-02-27 19:02:08,310 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:02:08,310 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2022-02-27 19:03:00,444 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:03:00,444 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 19:03:00,449 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 19:19:39,677 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:12005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:19:39,677 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 
+
+2022-02-27 19:19:40,605 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:19:40,605 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 
+
+2022-02-27 19:19:41,369 INFO DEFAULT_GROUP@@gulimall-third-party {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:19:41,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-third-party, ips: 
+
+2022-02-27 19:19:42,182 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:19:42,182 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
+
+2022-02-27 19:19:48,159 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:19:48,159 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2022-02-27 19:20:30,589 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:20:30,589 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.69.129:8080_true,
+
+2022-02-27 19:20:30,592 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 192.168.69.129:8080_true,
+
+2022-02-27 19:53:22,975 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:53:22,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 192.168.69.129:11000_true,
+
+2022-02-27 19:53:22,975 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 192.168.69.129:11000_true,
+
+2022-02-27 19:53:37,207 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:12005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:53:37,207 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 192.168.69.129:12005_true,
+
+2022-02-27 19:53:37,257 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:53:37,257 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.69.129:20000_true,
+
+2022-02-27 19:53:37,265 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 192.168.69.129:20000_true,
+
+2022-02-27 19:53:42,909 INFO DEFAULT_GROUP@@gulimall-third-party {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:53:42,910 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-third-party, ips: 192.168.69.129:30000_true,
+
+2022-02-27 19:53:42,917 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-third-party, ips: 192.168.69.129:30000_true,
+
+2022-02-27 19:53:47,312 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 19:53:47,312 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 19:53:47,321 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 192.168.69.129:40000_true,
+
+2022-02-27 20:47:32,284 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 20:47:32,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 20:48:27,118 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 20:48:27,118 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 20:48:27,121 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 20:50:35,052 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645966219458
+
+2022-02-27 20:50:51,635 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 20:50:51,635 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 20:53:06,399 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 20:53:06,399 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:15:34,261 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:15:34,262 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:16:09,240 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:16:09,240 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:16:09,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:17:08,551 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645967810979
+
+2022-02-27 21:17:18,846 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:18:33,569 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645967894877
+
+2022-02-27 21:18:38,700 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:21:44,297 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968086645
+
+2022-02-27 21:21:47,428 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:21:53,401 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:21:53,402 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:22:30,837 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:22:30,837 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:22:30,839 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:23:46,762 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:23:46,762 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:24:21,394 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:24:21,394 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:24:21,401 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:27:10,230 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968415163
+
+2022-02-27 21:27:10,507 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:27:30,232 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968430507
+
+2022-02-27 21:27:37,579 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:27:55,239 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968457579
+
+2022-02-27 21:28:10,316 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 21:28:10,316 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:29:01,239 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:29:01,239 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:30:29,917 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:30:29,917 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:31:03,970 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:31:03,970 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:32:08,619 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:32:08,620 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:32:30,631 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:32:30,631 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:32:30,632 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:33:38,529 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:33:38,529 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:34:06,563 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:34:06,564 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:35:05,718 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968886730
+
+2022-02-27 21:35:20,726 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 21:35:20,726 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:35:42,492 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:35:42,492 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:36:00,727 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645968942493
+
+2022-02-27 21:36:15,732 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 21:36:15,732 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:36:27,725 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:36:27,726 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:37:05,737 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645969006026
+
+2022-02-27 21:37:15,764 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:38:25,756 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645969087712
+
+2022-02-27 21:38:40,763 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 21:38:40,764 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 21:40:49,968 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 21:40:49,968 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 21:46:45,880 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645969586863
+
+2022-02-27 21:46:59,805 INFO service: DEFAULT_GROUP@@gulimall-seckill {POS} {IP-ENABLED} valid: 192.168.69.129:25000@DEFAULT, region: unknown, msg: client beat ok
+
+2022-02-27 21:58:56,021 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645970319694
+
+2022-02-27 21:59:11,151 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 21:59:11,151 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 22:15:20,021 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 22:15:20,022 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 22:50:33,502 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645973418187
+
+2022-02-27 22:50:48,639 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 22:50:48,640 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 22:50:49,306 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 22:50:49,306 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 192.168.69.129:25000_true,
+
+2022-02-27 23:02:51,016 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:02:51,016 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2022-02-27 23:03:38,315 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:03:38,315 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:03:38,332 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:05:11,234 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:10001@DEFAULT@DEFAULT_GROUP@@gulimall-product, region: unknown, msg: client timeout after 15000, last beat: 1645974296223
+
+2022-02-27 23:05:26,245 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 23:05:26,245 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2022-02-27 23:06:03,520 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:06:03,520 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:06:53,940 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:06:53,940 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2022-02-27 23:07:27,159 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:07:27,159 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:07:27,160 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:20:51,607 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:10001@DEFAULT@DEFAULT_GROUP@@gulimall-product, region: unknown, msg: client timeout after 15000, last beat: 1645975235778
+
+2022-02-27 23:21:06,643 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 23:21:06,643 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2022-02-27 23:21:38,039 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:21:38,039 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 192.168.69.129:10001_true,
+
+2022-02-27 23:23:21,631 INFO {POS} {IP-DISABLED} valid: 192.168.69.129:25000@DEFAULT@DEFAULT_GROUP@@gulimall-seckill, region: unknown, msg: client timeout after 15000, last beat: 1645975382113
+
+2022-02-27 23:23:36,640 INFO DEFAULT_GROUP@@gulimall-seckill {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:25000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2022-02-27 23:23:36,641 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 23:25:22,706 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:22,706 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 
+
+2022-02-27 23:25:24,106 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:24,106 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 
+
+2022-02-27 23:25:24,138 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:24,138 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
+
+2022-02-27 23:25:24,174 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-seckill, ips: 
+
+2022-02-27 23:25:24,555 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:24,555 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 
+
+2022-02-27 23:25:26,656 INFO DEFAULT_GROUP@@gulimall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:26,656 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 
+
+2022-02-27 23:25:26,867 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:26,867 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2022-02-27 23:25:27,006 INFO DEFAULT_GROUP@@gulimall-third-party {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:30000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:27,006 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-third-party, ips: 
+
+2022-02-27 23:25:27,168 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:27,168 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 
+
+2022-02-27 23:25:27,186 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:12005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:27,186 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 
+
+2022-02-27 23:25:28,543 INFO DEFAULT_GROUP@@renren-fast {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:8080:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:28,543 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@renren-fast, ips: 
+
+2022-02-27 23:25:28,669 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.69.129:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2022-02-27 23:25:28,669 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 
+

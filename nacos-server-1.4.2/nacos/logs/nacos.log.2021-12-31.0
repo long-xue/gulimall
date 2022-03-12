@@ -1,0 +1,168 @@
+2021-12-31 21:29:25,561 INFO Starting Nacos v1.4.2 on USER-20201227MH with PID 5952 (E:\gulimall\nacos-server-1.4.2\nacos\target\nacos-server.jar started by Administrator in E:\gulimall\nacos-server-1.4.2\nacos\bin)
+
+2021-12-31 21:29:25,563 INFO The following profiles are active: standalone
+
+2021-12-31 21:29:36,714 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@352c1b98' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-12-31 21:29:36,728 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2021-12-31 21:29:39,531 INFO Tomcat initialized with port(s): 8848 (http)
+
+2021-12-31 21:29:39,824 INFO Starting service [Tomcat]
+
+2021-12-31 21:29:39,824 INFO Starting Servlet engine: [Apache Tomcat/9.0.38]
+
+2021-12-31 21:29:42,657 INFO At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+
+2021-12-31 21:29:42,809 INFO Initializing Spring embedded WebApplicationContext
+
+2021-12-31 21:29:42,810 INFO Root WebApplicationContext: initialization completed in 17012 ms
+
+2021-12-31 21:29:45,617 INFO HikariPool-1 - Starting...
+
+2021-12-31 21:29:45,622 WARN Registered driver with driverClassName=org.apache.derby.jdbc.EmbeddedDriver was not found, trying direct instantiation.
+
+2021-12-31 21:29:49,955 INFO HikariPool-1 - Driver does not support get/set network timeout for connections. (Feature not implemented: No details.)
+
+2021-12-31 21:29:50,009 INFO HikariPool-1 - Start completed.
+
+2021-12-31 21:29:56,312 INFO Nacos-related cluster resource initialization
+
+2021-12-31 21:29:56,355 INFO The cluster resource is initialized
+
+2021-12-31 21:29:59,391 INFO Reflections took 263 ms to scan 1 urls, producing 4 keys and 6 values 
+
+2021-12-31 21:29:59,444 INFO Reflections took 5 ms to scan 1 urls, producing 6 keys and 26 values 
+
+2021-12-31 21:29:59,503 INFO Reflections took 14 ms to scan 1 urls, producing 3 keys and 15 values 
+
+2021-12-31 21:29:59,529 INFO Reflections took 4 ms to scan 1 urls, producing 2 keys and 12 values 
+
+2021-12-31 21:30:03,998 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2021-12-31 21:30:04,514 INFO Adding welcome page: class path resource [static/index.html]
+
+2021-12-31 21:30:05,658 INFO Creating filter chain: Ant [pattern='/**'], []
+
+2021-12-31 21:30:05,766 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1a15b789, org.springframework.security.web.context.SecurityContextPersistenceFilter@5d8445d7, org.springframework.security.web.header.HeaderWriterFilter@40bffbca, org.springframework.security.web.csrf.CsrfFilter@7646731d, org.springframework.security.web.authentication.logout.LogoutFilter@29ad44e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@384fc774, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b9267b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57f791c6, org.springframework.security.web.session.SessionManagementFilter@42a9a63e, org.springframework.security.web.access.ExceptionTranslationFilter@3b1bb3ab]
+
+2021-12-31 21:30:06,047 INFO Initializing ExecutorService 'taskScheduler'
+
+2021-12-31 21:30:06,110 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2021-12-31 21:30:06,507 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2021-12-31 21:30:06,544 INFO Started Nacos in 92.113 seconds (JVM running for 95.283)
+
+2021-12-31 21:30:06,544 INFO Nacos started successfully in stand alone mode. use embedded storage
+
+2021-12-31 21:31:01,193 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2021-12-31 21:31:01,194 INFO Initializing Servlet 'dispatcherServlet'
+
+2021-12-31 21:31:01,205 INFO Completed initialization in 11 ms
+
+2021-12-31 21:40:00,329 INFO [capacityManagement] start correct usage
+
+2021-12-31 21:40:00,496 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 21:40:02,314 WARN clearConfigHistory start
+
+2021-12-31 21:40:02,384 WARN clearConfigHistory, getBeforeStamp:2021-12-01 21:40:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 21:50:00,498 INFO [capacityManagement] start correct usage
+
+2021-12-31 21:50:00,500 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 21:50:02,862 WARN clearConfigHistory start
+
+2021-12-31 21:50:02,864 WARN clearConfigHistory, getBeforeStamp:2021-12-01 21:50:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:00:00,501 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:00:00,502 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:00:02,868 WARN clearConfigHistory start
+
+2021-12-31 22:00:02,869 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:00:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:10:00,503 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:10:00,505 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:10:02,872 WARN clearConfigHistory start
+
+2021-12-31 22:10:02,876 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:10:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:20:00,506 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:20:00,544 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:20:02,882 WARN clearConfigHistory start
+
+2021-12-31 22:20:02,883 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:20:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:30:00,545 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:30:00,558 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:30:02,940 WARN clearConfigHistory start
+
+2021-12-31 22:30:02,941 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:30:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:40:00,558 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:40:00,562 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:40:02,956 WARN clearConfigHistory start
+
+2021-12-31 22:40:02,958 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:40:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 22:50:00,563 INFO [capacityManagement] start correct usage
+
+2021-12-31 22:50:00,658 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 22:50:02,976 WARN clearConfigHistory start
+
+2021-12-31 22:50:02,977 WARN clearConfigHistory, getBeforeStamp:2021-12-01 22:50:02.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 23:00:00,659 INFO [capacityManagement] start correct usage
+
+2021-12-31 23:00:00,662 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 23:00:03,077 WARN clearConfigHistory start
+
+2021-12-31 23:00:03,078 WARN clearConfigHistory, getBeforeStamp:2021-12-01 23:00:03.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 23:10:00,664 INFO [capacityManagement] start correct usage
+
+2021-12-31 23:10:00,665 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 23:10:03,102 WARN clearConfigHistory start
+
+2021-12-31 23:10:03,105 WARN clearConfigHistory, getBeforeStamp:2021-12-01 23:10:03.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 23:20:00,666 INFO [capacityManagement] start correct usage
+
+2021-12-31 23:20:00,666 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 23:20:03,207 WARN clearConfigHistory start
+
+2021-12-31 23:20:03,208 WARN clearConfigHistory, getBeforeStamp:2021-12-01 23:20:03.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 23:30:00,667 INFO [capacityManagement] start correct usage
+
+2021-12-31 23:30:00,788 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 23:30:03,211 WARN clearConfigHistory start
+
+2021-12-31 23:30:03,214 WARN clearConfigHistory, getBeforeStamp:2021-12-01 23:30:03.0, totalCount:58, pageSize:1000, removeTime:1
+
+2021-12-31 23:40:00,789 INFO [capacityManagement] start correct usage
+
+2021-12-31 23:40:00,801 INFO [capacityManagement] end correct usage, cost: 0s
+
+2021-12-31 23:40:03,228 WARN clearConfigHistory start
+
+2021-12-31 23:40:03,229 WARN clearConfigHistory, getBeforeStamp:2021-12-01 23:40:03.0, totalCount:58, pageSize:1000, removeTime:1
+

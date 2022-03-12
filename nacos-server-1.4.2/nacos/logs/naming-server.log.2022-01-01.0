@@ -1,0 +1,147 @@
+2022-01-01 00:01:43,190 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-01-01 00:01:44,343 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-01-01 00:01:44,344 INFO listen for service meta change
+
+2022-01-01 00:01:48,132 INFO [NACOS-DISTRO] healthy server list changed, old: [172.17.212.111:8848], new: [172.17.212.111:8848]
+
+2022-01-01 00:01:48,358 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":30000,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-third-party","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-third-party
+
+2022-01-01 00:01:48,376 INFO creating empty service public:DEFAULT_GROUP@@gulimall-third-party
+
+2022-01-01 00:01:48,358 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":7000,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-coupon","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-coupon
+
+2022-01-01 00:01:48,378 INFO creating empty service public:DEFAULT_GROUP@@gulimall-coupon
+
+2022-01-01 00:01:48,357 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":12005,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-search","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-search
+
+2022-01-01 00:01:48,378 INFO creating empty service public:DEFAULT_GROUP@@gulimall-search
+
+2022-01-01 00:01:48,357 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8000,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-member","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-member
+
+2022-01-01 00:01:48,380 INFO creating empty service public:DEFAULT_GROUP@@gulimall-member
+
+2022-01-01 00:01:48,409 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":88,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-gateway","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-gateway
+
+2022-01-01 00:01:48,410 INFO creating empty service public:DEFAULT_GROUP@@gulimall-gateway
+
+2022-01-01 00:01:48,712 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-third-party","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966508383,"checksum":"c3a40b0b8d0034b2d633663ce8a8d51f","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:48,712 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-search","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966508386,"checksum":"1cdb4137a02109fee10e98ff4cceaaca","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:48,713 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-coupon","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966508385,"checksum":"9c59584013abc77744e47b0bd3a4c636","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:48,713 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966508410,"checksum":"d1a384fcde3bba2a45442663508fe0ed","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:48,713 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-member","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966508383,"checksum":"322df64eae38ee8a515b235d709e0de7","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:48,726 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":12005,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508378,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:48,730 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508376,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:48,731 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508410,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:48,731 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508380,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:48,763 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"instanceList":[{"instanceId":"172.17.212.111#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"172.17.212.111","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508376,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:48,777 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-coupon","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508378,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:48,780 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"instanceList":[{"instanceId":"172.17.212.111#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"172.17.212.111","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508410,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:48,781 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-member, value: {"instanceList":[{"instanceId":"172.17.212.111#8000#DEFAULT#DEFAULT_GROUP@@gulimall-member","ip":"172.17.212.111","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508380,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:48,796 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-search, value: {"instanceList":[{"instanceId":"172.17.212.111#12005#DEFAULT#DEFAULT_GROUP@@gulimall-search","ip":"172.17.212.111","port":12005,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508378,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:48,796 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"instanceList":[{"instanceId":"172.17.212.111#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"172.17.212.111","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-coupon","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966508378,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:49,583 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8080,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@renren-fast","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@renren-fast
+
+2022-01-01 00:01:49,584 INFO creating empty service public:DEFAULT_GROUP@@renren-fast
+
+2022-01-01 00:01:49,587 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@renren-fast","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966509584,"checksum":"bdb0d307d5900a8d4fa91105d2dc2529","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:49,588 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966509584,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:49,588 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"instanceList":[{"instanceId":"172.17.212.111#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"172.17.212.111","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966509584,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:01:51,165 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":10001,"ip":"172.17.212.111","serviceName":"DEFAULT_GROUP@@gulimall-product","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-product
+
+2022-01-01 00:01:51,165 INFO creating empty service public:DEFAULT_GROUP@@gulimall-product
+
+2022-01-01 00:01:51,166 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-product","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1640966511165,"checksum":"73963940e83f603696547a65fdbaceb8","clusterMap":{},"empty":true}
+
+2022-01-01 00:01:51,166 WARN cluster: DEFAULT not found, ip: {"ip":"172.17.212.111","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966511165,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}, will create new cluster with default configuration.
+
+2022-01-01 00:01:51,166 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-product, value: {"instanceList":[{"instanceId":"172.17.212.111#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"172.17.212.111","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966511165,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}]}
+
+2022-01-01 00:03:29,434 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@gulimall-search
+
+2022-01-01 00:03:38,119 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@gulimall-search
+
+2022-01-01 00:03:43,470 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@gulimall-search, ip: {"instanceId":"172.17.212.111#12005#DEFAULT#DEFAULT_GROUP@@gulimall-search","ip":"172.17.212.111","port":12005,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966588991,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2022-01-01 00:03:43,869 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-search, value: {"instanceList":[]}
+
+2022-01-01 00:05:10,623 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@renren-fast
+
+2022-01-01 00:05:18,151 WARN protect threshold reached, return all ips, service: DEFAULT_GROUP@@renren-fast
+
+2022-01-01 00:05:24,626 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@renren-fast, ip: {"instanceId":"172.17.212.111#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"172.17.212.111","port":8080,"weight":1.0,"healthy":false,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1640966689891,"marked":false,"instanceHeartBeatInterval":5000,"ipDeleteTimeout":30000,"instanceHeartBeatTimeOut":15000}
+
+2022-01-01 00:05:24,629 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"instanceList":[]}
+
+2022-01-01 00:05:39,969 INFO [NACOS-RAFT] datum is changed, key: com.ali$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ·µQbtTEC$œ’m…Îmo“LÒDüÜ;˜%gÏ?wêÁÅ·øîùovH0õÉa‡5£Ú*î Ø’ÃÌlÍ››S iyä”rÕO7ª“ž%L]Ý×%±ºÇhk ¶«·÷>v1­HB£®±ßÞÚd\(eoIx¢>3´6BS%ÌØá“(
+œÛf$Ãhýé¿¶åeÔŽôÚèHœ‚`Ý¶f{Fo©Yò¿Ôó@00uMb’z-ëìXI$&ÂgfÖú¶7Ó´Þu|'K.ÌoP
+PÝÀùFË.Ðýoûò9B<~. ’ïÅË[’´˜Ë<Ù­„$¯•¢·ä{1¹A•.òbKxºL ¯Ý·'¯u8n5 ’ºe ,]ñH©–’ÆV¨ŒWwÃ$ùCƒel¹“|zys«™KŠi-ðqÊÝ¬bk,wnGÿâ;¥  ~ÖeÉrÍ’‰ÜÔ~'1`Vâ¦«¹-*[ÉñLÔKÄ'2@ŸÜþÐä»ª ²n‘Íß2¸Nß ˆÆ¶µG•¢ói/U¢µ'Eï@¦`Hæ¹˜;J•¼¼ÜŽÅ+Jén#»¼‚6Ú´—Ä¹G•ü¡NÒGð'—Z!öáí¸‰Wi»NJ @óàšAûÜZ|ª[¨ï$q}iÒ

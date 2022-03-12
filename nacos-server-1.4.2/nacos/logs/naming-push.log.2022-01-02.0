@@ -1,0 +1,26 @@
+2022-01-02 14:59:13,621 INFO DEFAULT_GROUP@@gulimall-gateway is changed, add it to push queue.
+
+2022-01-02 14:59:29,090 INFO DEFAULT_GROUP@@gulimall-product is changed, add it to push queue.
+
+2022-01-02 14:59:32,592 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-01-02 15:01:35,049 INFO DEFAULT_GROUP@@gulimall-member is changed, add it to push queue.
+
+2022-01-02 15:02:06,113 INFO DEFAULT_GROUP@@gulimall-coupon is changed, add it to push queue.
+
+2022-01-02 15:02:55,001 INFO DEFAULT_GROUP@@gulimall-third-party is changed, add it to push queue.
+
+2022-01-02 15:14:50,734 INFO DEFAULT_GROUP@@renren-fast is changed, add it to push queue.
+
+2022-01-02 15:14:50,926 INFO serviceName: DEFAULT_GROUP@@renren-fast changed, schedule push for: 192.168.137.1:51531, agent: Nacos-Java-Client:v1.1.4, key: 192.168.137.1,51531,433307294914543
+
+2022-01-02 15:14:50,928 INFO send udp packet: 192.168.137.1,51531,433307294914543
+
+2022-01-02 15:15:00,986 INFO retry to push data, key: 192.168.137.1,51531,433307294914543
+
+2022-01-02 15:15:00,986 INFO send udp packet: 192.168.137.1,51531,433307294914543
+
+2022-01-02 15:15:10,987 INFO retry to push data, key: 192.168.137.1,51531,433307294914543
+
+2022-01-02 15:15:10,987 WARN max re-push times reached, retry times 2, key: 192.168.137.1,51531,433307294914543
+

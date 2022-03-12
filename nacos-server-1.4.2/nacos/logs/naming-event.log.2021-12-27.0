@@ -1,0 +1,134 @@
+2021-12-27 16:13:23,820 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:13:23,826 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 172.17.212.111:88_true,
+
+2021-12-27 16:13:31,608 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:13:31,608 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 172.17.212.111:20000_true,
+
+2021-12-27 16:13:51,565 INFO DEFAULT_GROUP@@gulimall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:13:51,565 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 172.17.212.111:7000_true,
+
+2021-12-27 16:13:52,827 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:13:52,828 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 172.17.212.111:10001_true,
+
+2021-12-27 16:13:55,749 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:13:55,749 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 172.17.212.111:8000_true,
+
+2021-12-27 16:14:13,937 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:14:13,937 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 172.17.212.111:40000_true,
+
+2021-12-27 16:14:36,242 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:11000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:14:36,242 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 172.17.212.111:11000_true,
+
+2021-12-27 16:14:54,927 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:12005:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:14:54,927 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 172.17.212.111:12005_true,
+
+2021-12-27 16:15:33,716 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 16:15:33,716 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 172.17.212.111:9000_true,
+
+2021-12-27 16:39:15,492 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:12005@DEFAULT@DEFAULT_GROUP@@gulimall-search, region: unknown, msg: client timeout after 15000, last beat: 1640594339709
+
+2021-12-27 16:39:19,161 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:9000@DEFAULT@DEFAULT_GROUP@@gulimall-order, region: unknown, msg: client timeout after 15000, last beat: 1640594343925
+
+2021-12-27 16:39:22,473 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:11000@DEFAULT@DEFAULT_GROUP@@gulimall-ware, region: unknown, msg: client timeout after 15000, last beat: 1640594347002
+
+2021-12-27 16:39:31,041 INFO DEFAULT_GROUP@@gulimall-search {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:12005:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 16:39:31,041 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-search, ips: 
+
+2021-12-27 16:39:34,170 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 16:39:34,170 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 
+
+2021-12-27 16:39:37,476 INFO DEFAULT_GROUP@@gulimall-ware {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:11000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 16:39:37,476 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-ware, ips: 
+
+2021-12-27 17:33:03,037 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:20000@DEFAULT@DEFAULT_GROUP@@gulimall-auth-server, region: unknown, msg: client timeout after 15000, last beat: 1640597566196
+
+2021-12-27 17:33:18,066 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:20000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 17:33:18,067 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
+
+2021-12-27 17:34:20,608 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 17:34:20,608 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 172.17.212.111:20000_true,
+
+2021-12-27 17:52:26,973 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:8000@DEFAULT@DEFAULT_GROUP@@gulimall-member, region: unknown, msg: client timeout after 15000, last beat: 1640598730294
+
+2021-12-27 17:52:35,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 172.17.212.111:8000_false,
+
+2021-12-27 17:52:40,268 INFO service: DEFAULT_GROUP@@gulimall-member {POS} {IP-ENABLED} valid: 172.17.212.111:8000@DEFAULT, region: unknown, msg: client beat ok
+
+2021-12-27 20:38:34,527 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:34,530 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 172.17.212.111:8000_true,
+
+2021-12-27 20:38:34,546 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:40000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:34,546 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 172.17.212.111:40000_true,
+
+2021-12-27 20:38:34,547 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:20000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:34,547 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 172.17.212.111:20000_true,
+
+2021-12-27 20:38:36,827 INFO DEFAULT_GROUP@@gulimall-coupon {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:7000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:36,827 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 172.17.212.111:7000_true,
+
+2021-12-27 20:38:36,841 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:88:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:36,841 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 172.17.212.111:88_true,
+
+2021-12-27 20:38:38,286 INFO DEFAULT_GROUP@@gulimall-product {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:10001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:38:38,286 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-product, ips: 172.17.212.111:10001_true,
+
+2021-12-27 20:39:41,955 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.17.212.111:9000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 20:39:41,956 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 172.17.212.111:9000_true,
+
+2021-12-27 21:34:01,958 INFO DEFAULT_GROUP@@gulimall-member {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:8000:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2021-12-27 21:34:01,958 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-member, ips: 
+
+2021-12-27 21:34:10,795 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:20000@DEFAULT@DEFAULT_GROUP@@gulimall-auth-server, region: unknown, msg: client timeout after 15000, last beat: 1640612035193
+
+2021-12-27 21:34:10,795 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:40000@DEFAULT@DEFAULT_GROUP@@gulimall-cart, region: unknown, msg: client timeout after 15000, last beat: 1640612033578
+
+2021-12-27 21:34:13,351 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:7000@DEFAULT@DEFAULT_GROUP@@gulimall-coupon, region: unknown, msg: client timeout after 15000, last beat: 1640612037065
+
+2021-12-27 21:34:13,351 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:88@DEFAULT@DEFAULT_GROUP@@gulimall-gateway, region: unknown, msg: client timeout after 15000, last beat: 1640612035724
+
+2021-12-27 21:34:13,352 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:9000@DEFAULT@DEFAULT_GROUP@@gulimall-order, region: unknown, msg: client timeout after 15000, last beat: 1640612037253
+
+2021-12-27 21:34:19,020 INFO {POS} {IP-DISABLED} valid: 172.17.212.111:10001@DEFAULT@DEFAULT_GROUP@@gulimall-product, region: unknown, msg: client timeout after 15000, last beat: 1640612039758
+
+2021-12-27 21:34:26,733 INFO DEFAULT_GROUP@@gulimall-auth-server {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:20000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 21:34:26,733 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-auth-server, ips: 
+
+2021-12-27 21:34:26,733 INFO DEFAULT_GROUP@@gulimall-cart {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:40000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 21:34:26,733 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-cart, ips: 
+
+2021-12-27 21:34:28,365 INFO DEFAULT_GROUP@@gulimall-gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:88:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 21:34:28,365 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-gateway, ips: 
+
+2021-12-27 21:34:28,367 INFO DEFAULT_GROUP@@gulimall-order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:9000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 21:34:28,367 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-order, ips: 
+
+2021-12-27 21:34:28,369 INFO DEFAULT_GROUP@@gulimall-coupon {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.17.212.111:7000:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2021-12-27 21:34:28,369 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gulimall-coupon, ips: 
+

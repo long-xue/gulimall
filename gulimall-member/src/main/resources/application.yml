@@ -1,0 +1,33 @@
+ipAddr: 127.0.0.1
+spring:
+  profiles:
+    active:
+    - dev
+  datasource:
+    username: root
+    password: mq0000
+    url: jdbc:mysql://127.0.0.1:3306/mall_ums?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=UTF-8
+    driver-class-name: com.mysql.jdbc.Driver
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  thymeleaf:
+    cache: false
+  session:
+    store-type: redis  
+  application:
+    name: gulimall-member
+  redis:
+    host: ${ipAddr}
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+  mvc:
+    date-format: yyyy-MM-dd HH:mm:ss
+mybatis-plus:
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      id-type: auto
+server:
+  port: 8000

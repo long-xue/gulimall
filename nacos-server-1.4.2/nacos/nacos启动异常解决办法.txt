@@ -1,0 +1,1 @@
+在启动nacos之后报derby文件的数据异常时，尝试先把log文件下的日志清除，nacos会记录log version，在一段时间不登version对不上会导致启动失败。类似mysql的持久化

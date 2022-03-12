@@ -1,0 +1,26 @@
+2022-02-27 13:46:33,025 INFO [dump-all-ok] mall-coupon.properties+DEFAULT_GROUP, 1590819243120, length=44, md5=023acc9f9414b014a1fa7610592bae4b
+
+2022-02-27 13:46:33,027 INFO [dump-all-ok] mall-coupon.properties+DEFAULT_GROUP, 1590819825042, length=40, md5=0a6dd90658232f0a09dde5cad3f4a8dd
+
+2022-02-27 13:46:33,027 INFO [dump-all-ok] mall-coupon.properties+dev, 1590822646265, length=40, md5=ac14ca7968af6d56a43482edc2f35315
+
+2022-02-27 13:46:33,027 INFO [dump-all-ok] mall-coupon.properties+prod, 1590822627032, length=41, md5=5c0181dab9263d2582d84b125601fdee
+
+2022-02-27 13:46:33,027 INFO [dump-all-ok] datasource.yml+dev, 1645715699496, length=224, md5=8320a38e59ea33bbb91f677eedb55b67
+
+2022-02-27 13:46:33,028 INFO [dump-all-ok] mybatis.yml+dev, 1590822846193, length=116, md5=3c8cba7df1687e1fbe635fdfa0352287
+
+2022-02-27 13:46:33,029 INFO [dump-all-ok] other.yml+dev, 1645885761650, length=393, md5=fe69eba03078ec089eba652a344a4829
+
+2022-02-27 13:46:33,029 INFO [dump-all-ok] oss.yml+DEFAULT_GROUP, 1639653644767, length=384, md5=2f2c5c6f09163b0b5fd74b49105efff9
+
+2022-02-27 13:46:33,031 INFO [dump-all-ok] gateway.yml+dev, 1645883888576, length=3196, md5=1f7d7d489436b48edfbebdce0c5da3f8
+
+2022-02-27 13:46:33,032 INFO [dump-all-ok] product.yml+dev, 1645719607487, length=2963, md5=d639659b323c8b120e9a79a71ee16b30
+
+2022-02-27 13:46:33,033 INFO [dump-all-ok] gateway.yml+mall, 1625234079479, length=3028, md5=a0ef01276c94139bd18b22d327eade86
+
+2022-02-27 13:46:33,033 INFO [dump-all-ok] product.yml+mall, 1645720590057, length=1747, md5=d0a9546e4cec305a4287bbd5734558d4
+
+2022-02-27 13:46:33,034 INFO [dump-all-ok] pro+DEFAULT_GROUP, 1645720774044, length=1828, md5=96b4a29d5b4d56122a15017c7340239c
+

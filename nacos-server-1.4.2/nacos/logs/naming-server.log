@@ -1,0 +1,128 @@
+2022-03-05 09:08:59,481 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-03-05 09:09:00,831 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-05 09:09:00,832 INFO listen for service meta change
+
+2022-03-05 09:09:04,425 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.3:8848], new: [192.168.1.3:8848]
+
+2022-03-05 09:19:50,417 INFO GlobalConfig{taskDispatchPeriod=2000, batchSyncKeyCount=1000, syncRetryDelay=5000, dataWarmup=false, expireInstance=true, loadDataRetryDelayMillis=30000}
+
+2022-03-05 09:19:51,628 INFO open empty service auto clean job, initialDelay : 50000 ms, period : 30000 ms
+
+2022-03-05 09:19:51,630 INFO listen for service meta change
+
+2022-03-05 09:19:55,347 INFO [NACOS-DISTRO] healthy server list changed, old: [192.168.1.3:8848], new: [192.168.1.3:8848]
+
+2022-03-05 09:22:34,912 INFO creating empty service public:DEFAULT_GROUP@@gulimall-search
+
+2022-03-05 09:22:36,619 INFO creating empty service public:DEFAULT_GROUP@@gulimall-auth-server
+
+2022-03-05 09:22:37,079 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":20000,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@gulimall-auth-server","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-auth-server
+
+2022-03-05 09:22:37,157 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.3","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443357086,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:37,215 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-search","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443354917,"checksum":"1cdb4137a02109fee10e98ff4cceaaca","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:37,216 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#12005#DEFAULT#DEFAULT_GROUP@@gulimall-search","ip":"192.168.1.3","port":12005,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443354698,"marked":false,"app":"gulimall-search","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:37,218 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-auth-server","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443356619,"checksum":"ad6d66ca7734ad012339ac5a4a1d6178","clusterMap":{"DEFAULT":{"serviceName":"DEFAULT_GROUP@@gulimall-auth-server","name":"DEFAULT","healthChecker":{"type":"TCP"},"defaultPort":80,"defaultCheckPort":80,"useIPPort4Check":true,"metadata":{},"sitegroup":"","defCkport":80,"empty":true,"defIPPort":80}},"empty":true}
+
+2022-03-05 09:22:37,295 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-auth-server, value: {"instanceList":[{"instanceId":"192.168.1.3#20000#DEFAULT#DEFAULT_GROUP@@gulimall-auth-server","ip":"192.168.1.3","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443357086,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:37,371 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-search, value: {"instanceList":[{"instanceId":"192.168.1.3#12005#DEFAULT#DEFAULT_GROUP@@gulimall-search","ip":"192.168.1.3","port":12005,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-search","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443354698,"marked":false,"app":"gulimall-search","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:37,917 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-auth-server, value: {"instanceList":[{"instanceId":"192.168.1.3#20000#DEFAULT#DEFAULT_GROUP@@gulimall-auth-server","ip":"192.168.1.3","port":20000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-auth-server","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443356619,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:39,077 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":11000,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@gulimall-ware","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-ware
+
+2022-03-05 09:22:39,077 INFO creating empty service public:DEFAULT_GROUP@@gulimall-ware
+
+2022-03-05 09:22:39,078 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-ware","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443359077,"checksum":"7ae9de5e88481d07750afac23813d947","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:39,093 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.3","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443359077,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:39,114 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-ware, value: {"instanceList":[{"instanceId":"192.168.1.3#11000#DEFAULT#DEFAULT_GROUP@@gulimall-ware","ip":"192.168.1.3","port":11000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-ware","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443359087,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:39,960 INFO creating empty service public:DEFAULT_GROUP@@gulimall-third-party
+
+2022-03-05 09:22:39,964 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-third-party","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443359960,"checksum":"c3a40b0b8d0034b2d633663ce8a8d51f","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:39,964 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.1.3","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443359959,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:39,971 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":30000,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@gulimall-third-party","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-third-party
+
+2022-03-05 09:22:39,974 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-third-party, value: {"instanceList":[{"instanceId":"192.168.1.3#30000#DEFAULT#DEFAULT_GROUP@@gulimall-third-party","ip":"192.168.1.3","port":30000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-third-party","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443359971,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:46,057 INFO creating empty service public:DEFAULT_GROUP@@gulimall-coupon
+
+2022-03-05 09:22:46,059 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-coupon","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443366057,"checksum":"9c59584013abc77744e47b0bd3a4c636","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:46,059 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"192.168.1.3","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-coupon","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443366057,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:46,064 INFO creating empty service public:DEFAULT_GROUP@@gulimall-gateway
+
+2022-03-05 09:22:46,067 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-coupon, value: {"instanceList":[{"instanceId":"192.168.1.3#7000#DEFAULT#DEFAULT_GROUP@@gulimall-coupon","ip":"192.168.1.3","port":7000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-coupon","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443366057,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:46,069 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-gateway","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443366065,"checksum":"d1a384fcde3bba2a45442663508fe0ed","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:46,069 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.1.3","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443366064,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:46,076 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-gateway, value: {"instanceList":[{"instanceId":"192.168.1.3#88#DEFAULT#DEFAULT_GROUP@@gulimall-gateway","ip":"192.168.1.3","port":88,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-gateway","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443366064,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:53,879 INFO creating empty service public:DEFAULT_GROUP@@gulimall-cart
+
+2022-03-05 09:22:53,884 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-cart","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443373879,"checksum":"12f89b8dfe9b5151271a32842c66fa7c","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:53,885 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#40000#DEFAULT#DEFAULT_GROUP@@gulimall-cart","ip":"192.168.1.3","port":40000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443373877,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:53,888 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-cart, value: {"instanceList":[{"instanceId":"192.168.1.3#40000#DEFAULT#DEFAULT_GROUP@@gulimall-cart","ip":"192.168.1.3","port":40000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-cart","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443373877,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:22:58,977 INFO creating empty service public:DEFAULT_GROUP@@gulimall-member
+
+2022-03-05 09:22:58,980 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-member","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443378977,"checksum":"322df64eae38ee8a515b235d709e0de7","clusterMap":{},"empty":true}
+
+2022-03-05 09:22:59,031 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#8000#DEFAULT#DEFAULT_GROUP@@gulimall-member","ip":"192.168.1.3","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443378977,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:22:59,058 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-member, value: {"instanceList":[{"instanceId":"192.168.1.3#8000#DEFAULT#DEFAULT_GROUP@@gulimall-member","ip":"192.168.1.3","port":8000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-member","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443378977,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:23:04,264 INFO creating empty service public:DEFAULT_GROUP@@gulimall-order
+
+2022-03-05 09:23:04,266 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-order","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443384265,"checksum":"f698211d3017eb3e1b8b799bcd3697b2","clusterMap":{},"empty":true}
+
+2022-03-05 09:23:04,266 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#9000#DEFAULT#DEFAULT_GROUP@@gulimall-order","ip":"192.168.1.3","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443384264,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:23:04,266 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":9000,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@gulimall-order","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-order
+
+2022-03-05 09:23:04,274 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-order, value: {"instanceList":[{"instanceId":"192.168.1.3#9000#DEFAULT#DEFAULT_GROUP@@gulimall-order","ip":"192.168.1.3","port":9000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-order","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443384274,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:23:08,185 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":25000,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@gulimall-seckill","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@gulimall-seckill
+
+2022-03-05 09:23:08,185 INFO creating empty service public:DEFAULT_GROUP@@gulimall-seckill
+
+2022-03-05 09:23:08,187 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-seckill","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443388185,"checksum":"3c640a38adc710030088db1c45119a95","clusterMap":{},"empty":true}
+
+2022-03-05 09:23:08,187 WARN cluster: DEFAULT not found, ip: {"ip":"192.168.1.3","port":25000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-seckill","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443388185,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:23:08,531 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-seckill, value: {"instanceList":[{"instanceId":"192.168.1.3#25000#DEFAULT#DEFAULT_GROUP@@gulimall-seckill","ip":"192.168.1.3","port":25000,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-seckill","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443388527,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:23:13,984 INFO creating empty service public:DEFAULT_GROUP@@gulimall-product
+
+2022-03-05 09:23:13,985 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@gulimall-product","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443393984,"checksum":"73963940e83f603696547a65fdbaceb8","clusterMap":{},"empty":true}
+
+2022-03-05 09:23:13,985 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.1.3","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443393984,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:23:13,986 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@gulimall-product, value: {"instanceList":[{"instanceId":"192.168.1.3#10001#DEFAULT#DEFAULT_GROUP@@gulimall-product","ip":"192.168.1.3","port":10001,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@gulimall-product","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443393984,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:23:24,165 WARN [CLIENT-BEAT] The instance has been removed for health mechanism, perform data compensation operations, beat: {"load":0.0,"cpu":0.0,"rt":0.0,"qps":0.0,"mem":0.0,"port":8080,"ip":"192.168.1.3","serviceName":"DEFAULT_GROUP@@renren-fast","cluster":"DEFAULT","weight":1.0,"ephemeral":true,"metadata":{"preserved.register.source":"SPRING_CLOUD"}}, serviceName: DEFAULT_GROUP@@renren-fast
+
+2022-03-05 09:23:24,165 INFO creating empty service public:DEFAULT_GROUP@@renren-fast
+
+2022-03-05 09:23:24,166 INFO [NEW-SERVICE] {"name":"DEFAULT_GROUP@@renren-fast","protectThreshold":0.0,"groupName":"DEFAULT_GROUP","metadata":{},"finalizeCount":0,"owners":[],"resetWeight":false,"enabled":true,"selector":{"type":"none"},"namespaceId":"public","ipDeleteTimeout":30000,"lastModifiedMillis":1646443404165,"checksum":"bdb0d307d5900a8d4fa91105d2dc2529","clusterMap":{},"empty":true}
+
+2022-03-05 09:23:24,166 WARN cluster: DEFAULT not found, ip: {"instanceId":"192.168.1.3#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.1.3","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443404166,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}, will create new cluster with default configuration.
+
+2022-03-05 09:23:24,167 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"instanceList":[{"instanceId":"192.168.1.3#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.1.3","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443404166,"marked":false,"app":"DEFAULT","instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+
+2022-03-05 09:23:24,174 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@renren-fast, value: {"instanceList":[{"instanceId":"192.168.1.3#8080#DEFAULT#DEFAULT_GROUP@@renren-fast","ip":"192.168.1.3","port":8080,"weight":1.0,"healthy":true,"enabled":true,"ephemeral":true,"clusterName":"DEFAULT","serviceName":"DEFAULT_GROUP@@renren-fast","metadata":{"preserved.register.source":"SPRING_CLOUD"},"lastBeat":1646443404165,"marked":false,"instanceHeartBeatInterval":5000,"instanceHeartBeatTimeOut":15000,"ipDeleteTimeout":30000}]}
+

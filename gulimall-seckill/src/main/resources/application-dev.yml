@@ -1,0 +1,49 @@
+#ipAddr: 127.0.0.1
+#server:
+#  port: 25000
+#
+#spring:
+#  application:
+#    name: gulimall-seckill
+#  cloud:
+##    sleuth:
+##      sampler:
+###    设置抽样采集率为100%，默认为0.1，采集率表示链路追踪的数据采集百分比
+##        probability: 1
+##    zipkin:
+##  #  zipkin服务器的地址
+##      base-url: 106.52.144.77：9344
+##  #   关闭服务发现，否则springcloud会把zipkin的url当成服务器名称处
+##      discovery-client-enabled: false
+##  #   采用什么方式传输数据
+##      sender:
+##        type: web
+#    nacos:
+#      discovery:
+#        server-addr: 127.0.0.1:8848
+#    sentinel:
+#      transport:
+#        dashboard: localhost:8333
+#        port: 8719
+#  redis:
+#    host: ${ipAddr}
+#  session:
+#    store-type: redis
+#  rabbitmq:
+#    virtual-host: /
+#    host: 106.55.227.23
+#  thymeleaf:
+#    cache: false
+#  task:
+#    execution:
+#      pool:
+#        core-size: 5
+#        max-size: 50
+#    #    scheduling:
+#    #      pool:
+#    #        size: 5
+#logging:
+#  level:
+#    root: error
+#    org.springframework.cloud.openfeign: debug
+#    org.springframework.cloud.sleuth: debug
